@@ -35,9 +35,10 @@ class Song
   else
   genre_count[genre] = 1
   end
+end
     # {|genre| genre_count[genre] += 1}
     genre_count
-  end
+end
   
     def self.artist_count
     artist_count = {}
@@ -48,9 +49,9 @@ class Song
       else
     artist_count[artist] = 1
       end
-
+end
     artist_count
-  end
+  
   end
   
  
